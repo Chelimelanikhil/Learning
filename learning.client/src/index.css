@@ -1,0 +1,204 @@
+/* EmployeeList.css */
+
+.container {
+    max-width: 800px;
+    margin:  auto;
+    padding: 20px;
+}
+
+
+    .container.light {
+        background-color: #fff;
+    }
+
+    .container.dark {
+        background-color: #343a40;
+    }
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+    .heading.dark {
+        color: #fff;
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+.input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+}
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .add-button:hover {
+        background-color: #218838;
+    }
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.employee-item {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+}
+
+.employee-name {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+    .employee-name:hover {
+        text-decoration: underline;
+    }
+
+.employee-role {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+}
+
+.button-row {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.edit-button,
+.delete-button,
+.save-button,
+.cancel-button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.edit-button {
+    background-color: #ffc107;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.save-button {
+    background-color: #007bff;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-button:hover {
+    background-color: #5a6268;
+}
+
+
+.header {
+    padding: 1rem;
+    border-radius: 6px;
+
+    color: white;
+}
+
+    .header.light {
+        background-color: #007bff;
+    }
+
+    .header.dark {
+        background-color: #343a40;
+    }
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+    .header-links a {
+        color: white;
+        text-decoration: underline;
+    }
+
+.theme-toggle {
+    background-color: white;
+    color: black;
+    padding: 0.4rem 0.75rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.employee-detail {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .employee-detail h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .employee-detail p {
+        margin-top: 0.75rem;
+        font-size: 1rem;
+        color: #555;
+    }
+

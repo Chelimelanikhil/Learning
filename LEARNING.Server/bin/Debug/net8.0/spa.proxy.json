@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:55393",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\brio support\\Desktop\\Learning\\LEARNING.Server\\..\\learning.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

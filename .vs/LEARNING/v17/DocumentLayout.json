@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brio support\\Desktop\\Learning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\learning\\learning.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\learning\\learning.client\\src\\components\\employeelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\components\\employeelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\learning\\learning.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\learning\\learning.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeList.jsx",
+              "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\components\\EmployeeList.jsx",
+              "RelativeDocumentMoniker": "learning.client\\src\\components\\EmployeeList.jsx",
+              "ToolTip": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\components\\EmployeeList.jsx",
+              "RelativeToolTip": "learning.client\\src\\components\\EmployeeList.jsx",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-11T09:56:51.728Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1720393077:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cbfbc67d-54ee-3672-a877-4f5b50f6ef07}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "learning.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\App.jsx",
+              "RelativeToolTip": "learning.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-11T09:55:44.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\components\\Header.jsx",
+              "RelativeDocumentMoniker": "learning.client\\src\\components\\Header.jsx",
+              "ToolTip": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\components\\Header.jsx",
+              "RelativeToolTip": "learning.client\\src\\components\\Header.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-11T09:56:06.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\index.css",
+              "RelativeDocumentMoniker": "learning.client\\src\\index.css",
+              "ToolTip": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\src\\index.css",
+              "RelativeToolTip": "learning.client\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-11T09:55:43.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
