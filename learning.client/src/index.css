@@ -202,3 +202,77 @@
         color: #555;
     }
 
+
+
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background-color: #f3f4f6;
+}
+
+
+
+.login-box.light {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.login-box.dark {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #343a40;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+    .login-box h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+    }
+.login-box.dark h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+    .login-box input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+    .login-box button {
+        width: 100%;
+        padding: 10px;
+        background-color: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: background-color 0.2s;
+        cursor:pointer
+    }
+
+        .login-box button:hover {
+            background-color: #2563eb;
+        }
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}

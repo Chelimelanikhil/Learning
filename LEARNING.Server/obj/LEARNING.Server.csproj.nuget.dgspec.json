@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brio support\\Desktop\\Learning\\LEARNING.Server\\LEARNING.Server.csproj": {}
+    "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\LEARNING.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brio support\\Desktop\\Learning\\LEARNING.Server\\LEARNING.Server.csproj": {
+    "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\LEARNING.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brio support\\Desktop\\Learning\\LEARNING.Server\\LEARNING.Server.csproj",
+        "projectUniqueName": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\LEARNING.Server.csproj",
         "projectName": "LEARNING.Server",
-        "projectPath": "C:\\Users\\brio support\\Desktop\\Learning\\LEARNING.Server\\LEARNING.Server.csproj",
+        "projectPath": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\LEARNING.Server.csproj",
         "packagesPath": "C:\\Users\\brio support\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brio support\\Desktop\\Learning\\LEARNING.Server\\obj\\",
+        "outputPath": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,9 +55,21 @@
               "target": "Package",
               "version": "[2.1.66, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[8.*-*, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -66,6 +78,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.8.0, )"
             }
           },
           "imports": [

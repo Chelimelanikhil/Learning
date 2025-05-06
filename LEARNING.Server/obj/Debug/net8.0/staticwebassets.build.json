@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "84bvFEQKACHNsz8pMNwJFblXZtafpFYRu5109KLr7vo=",
+  "Hash": "AtEE8lS8/7fqnHVn7IFzslvrs1X05zma/e6CM5S3lvg=",
   "Source": "LEARNING.Server",
   "BasePath": "_content/LEARNING.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\brio support\\Desktop\\Learning\\learning.client\\learning.client.esproj",
+      "Identity": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\learning.client.esproj",
       "Version": 2,
       "Source": "learning.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

@@ -1,1 +1,2 @@
 C:\Users\brio support\Desktop\Learning\learning.client\obj\Debug\learning.client.esproj.CoreCompileInputs.cache
+C:\Users\brio support\Desktop\.Net\Learning\learning.client\obj\Debug\learning.client.esproj.CoreCompileInputs.cache

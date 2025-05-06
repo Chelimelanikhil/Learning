@@ -2,15 +2,16 @@ import React, { useContext, useEffect, useState, useCallback, useMemo } from "re
 import { EmployeeContext } from "../context/EmployeeContext";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../context/ThemeContext";
+import { useNavigate } from "react-router-dom";
 
 
-const EmployeeItem = React.memo(({ id, name, role, onEdit, onDelete }) => {
+const EmployeeItem = React.memo(({ id, name, designation, onEdit, onDelete }) => {
     const [isEditing, setIsEditing] = useState(false);
     const [editName, setEditName] = useState(name);
-    const [editRole, setEditRole] = useState(role);
+    const [editdesignation, setEditdesignation] = useState(designation);
 
     const handleSave = () => {
-        onEdit(id, editName, editRole);
+        onEdit(id, editName, editdesignation);
         setIsEditing(false);
     };
 
@@ -23,11 +24,12 @@ const EmployeeItem = React.memo(({ id, name, role, onEdit, onDelete }) => {
                         value={editName}
                         onChange={(e) => setEditName(e.target.value)}
                         className="input"
+                        style={{marginBottom:'5px'} }
                     />
                     <input
                         type="text"
-                        value={editRole}
-                        onChange={(e) => setEditRole(e.target.value)}
+                        value={editdesignation}
+                        onChange={(e) => setEditdesignation(e.target.value)}
                         className="input"
                     />
                     <div className="button-row">
@@ -38,7 +40,7 @@ const EmployeeItem = React.memo(({ id, name, role, onEdit, onDelete }) => {
             ) : (
                 <>
                     <Link to={`/employee/${id}`} className="employee-name">{name}</Link>
-                    <p className="employee-role">{role}</p>
+                    <p className="employee-role">{designation}</p>
                     <div className="button-row">
                         <button onClick={() => setIsEditing(true)} className="edit-button">Edit</button>
                         <button onClick={() => onDelete(id)} className="delete-button">Delete</button>
@@ -52,21 +54,36 @@ const EmployeeItem = React.memo(({ id, name, role, onEdit, onDelete }) => {
 
 function EmployeeList() {
     const { employees, setEmployees } = useContext(EmployeeContext);
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
     const { theme } = useContext(ThemeContext);
+    const navigate = useNavigate();
 
 
     const [newName, setNewName] = useState("");
-    const [newRole, setNewRole] = useState("");
+    const [newdesignation, setNewdesignation] = useState("");
 
     useEffect(() => {
         fetchEmployees();
     }, [setEmployees]);
 
     const fetchEmployees = useCallback(async () => {
+        const token = localStorage.getItem("token");
+        setIsLoading(true);
         try {
-            const response = await fetch("/Users/getUSers");
+            const response = await 
+            fetch("Users/getUSers", {
+                headers: {
+                    "Authorization": `Bearer ${token}`
+                }
+            });
+            if (response.status === 401) {
+                // Clear token and redirect to login
+                localStorage.removeItem("token");
+                localStorage.removeItem("isAuthenticated");
+                navigate("/login");
+                return;
+            }
             const employees = await response.json();
             setEmployees(employees);
             setIsLoading(false);
@@ -76,57 +93,74 @@ function EmployeeList() {
         }
     }, [setEmployees]);
 
+
+
     const addEmployee = useCallback(async () => {
-        if (newName.trim() === "" || newRole.trim() === "")
+        if (newName.trim() === "" || newdesignation.trim() === "") {
             alert("Enter Name and Role")
             return;
+        }
 
         const newEmployee = {
             name: newName,
-            role: newRole,
+            designation: newdesignation,
         };
-
+        const token = localStorage.getItem("token");
         try {
             const response = await fetch("/Users/addUser", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: { "Content-Type": "application/json", "Authorization": `Bearer ${token}` },
                 body: JSON.stringify(newEmployee),
             });
 
-            if (!response.ok) throw new Error("Failed to add employee");
+            if (response.status === 401) {
+                // Clear token and redirect to login
+                localStorage.removeItem("token");
+                localStorage.removeItem("isAuthenticated");
+                navigate("/login");
+                return;
+            }
 
             alert('Employee added successfully');
 
             setNewName("");
-            setNewRole("");
+            setNewdesignation("");
 
             await fetchEmployees(); 
         } catch (err) {
             alert("Error adding employee: " + err.message);
         }
-    }, [newName, newRole, fetchEmployees]);
+    }, [newName, newdesignation, fetchEmployees]);
 
 
 
-    const handleEdit = useCallback(async (id, newName, newRole) => {
+    const handleEdit = useCallback(async (id, newName, newdesignation) => {
         const updatedEmployee = {
             id:id,
             name: newName,
-            role: newRole,
+            designation: newdesignation
         };
+        const token = localStorage.getItem("token");
+
         try {
             const response = await fetch(`/Users/updateUser`, {
                 method: "PUT",
-                headers: { "Content-Type": "application/json" },
+                headers: { "Content-Type": "application/json", "Authorization": `Bearer ${token}` },
                 body: JSON.stringify(updatedEmployee),
 
             });
 
-            if (!response.ok) throw new Error("Failed to update employee");
+            if (response.status === 401) {
+                // Clear token and redirect to login
+                localStorage.removeItem("token");
+                localStorage.removeItem("isAuthenticated");
+                navigate("/login");
+                return;
+            }
 
             setEmployees((prev) =>
                 prev.map((emp) =>
-                    emp.id === id ? { ...emp, name: newName, role: newRole } : emp
+                    emp.id === id ? { ...emp, name: newName, designation: newdesignation } : emp
                 )
             );
             alert('Employe updated Sucessfully');
@@ -139,17 +173,22 @@ function EmployeeList() {
     const handleDelete = useCallback(async (id) => {
         const confirmDelete = window.confirm("Are you sure you want to delete this employee?");
         if (!confirmDelete) return;
-
+        const token = localStorage.getItem("token");
         try {
             const response = await fetch(`/Users/deleteUser/${id}`, {
                 method: "DELETE",
+                headers: { "Authorization": `Bearer ${token}` },
             });
-
+            //const data = await response.json(); 
             if (!response.ok) throw new Error("Failed to delete employee");
+            if (response.ok) {
+                setEmployees((prev) => prev.filter((emp) => emp.id !== id));
+                alert('Employe deleted Sucessfully');
 
-            setEmployees((prev) => prev.filter((emp) => emp.id !== id));
-            alert('Employe deleted Sucessfully');
-
+            } else {
+                alert(data.message);
+            }
+            
         } catch (err) {
             alert("Error deleting employee: " + err.message);
         }
@@ -177,9 +216,9 @@ function EmployeeList() {
                 />
                 <input
                     type="text"
-                    placeholder="Role"
-                    value={newRole}
-                    onChange={(e) => setNewRole(e.target.value)}
+                    placeholder="Designation"
+                    value={newdesignation}
+                    onChange={(e) => setNewdesignation(e.target.value)}
                     className="input"
                 />
                 <button onClick={addEmployee} className="add-button">
@@ -188,12 +227,12 @@ function EmployeeList() {
             </div>
 
             <ul className="employee-grid">
-                {sortedEmployees.map(({ id, name, role }) => (
+                {sortedEmployees.map(({ id, name, designation }) => (
                     <EmployeeItem
                         key={id}
                         id={id}
                         name={name}
-                        role={role}
+                        designation={designation}
                         onEdit={handleEdit}
                         onDelete={handleDelete}
                     />

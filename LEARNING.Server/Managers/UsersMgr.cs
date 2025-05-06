@@ -13,6 +13,12 @@ namespace LEARNING.Server.Managers
             _configuration = configuration;
         }
 
+        public User Login(string username, string password)
+        {
+            UsersDAO usersDAO = new UsersDAO(_configuration);
+            return usersDAO.Login(username, password);
+        }
+
         public List<User> GetUsers()
         {
             UsersDAO usersDAO = new UsersDAO(_configuration);
