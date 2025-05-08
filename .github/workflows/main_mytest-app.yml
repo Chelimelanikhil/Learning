@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read #This is required for actions/checkout
+      contents: read
 
     steps:
       - uses: actions/checkout@v4
@@ -23,8 +23,17 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'  # Or the version your React app uses
+
+      - name: Install and build React app
+        run: |
+          cd ClientApp
+          npm install
+          npm run build
+          cd ..
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
@@ -34,6 +43,7 @@ jobs:
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
+
 
   deploy:
     runs-on: ubuntu-latest
