@@ -15,6 +15,8 @@ public class EmailService : ICustomEmailService
 
     public async Task SendHtmlTemplateEmail(string toEmail, string subject, string templatePath, Dictionary<string, string> placeholders)
     {
+
+        Console.WriteLine("Test" , toEmail);
         var email = new MimeMessage();
         email.From.Add(new MailboxAddress(
             _config["EmailSettings:SenderName"],

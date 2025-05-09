@@ -18,7 +18,6 @@ namespace LEARNING.Server.Controllers
         private readonly ICustomEmailService _emailService;
         
 
-
         public UsersController(IUsersMgr usersMgr, IConfiguration config, IMemoryCache cache, ICustomEmailService emailService)
         {
             _usersMgr = usersMgr;
@@ -109,9 +108,6 @@ namespace LEARNING.Server.Controllers
                 return StatusCode(500, $"Registration error: {ex.Message}");
             }
         }
-
-
-
 
         [HttpGet("getUsers")]
         [Authorize]
