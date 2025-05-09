@@ -36,20 +36,28 @@ public class EmailService : ICustomEmailService
         };
 
         email.Body = builder.ToMessageBody();
+        try
+        {
+            using var smtp = new SmtpClient();
+            await smtp.ConnectAsync(
+                _config["EmailSettings:SmtpServer"],
+                int.Parse(_config["EmailSettings:SmtpPort"]),
+                MailKit.Security.SecureSocketOptions.StartTls
+            );
 
-        using var smtp = new SmtpClient();
-        await smtp.ConnectAsync(
-            _config["EmailSettings:SmtpServer"],
-            int.Parse(_config["EmailSettings:SmtpPort"]),
-            MailKit.Security.SecureSocketOptions.StartTls
-        );
+            await smtp.AuthenticateAsync(
+                _config["EmailSettings:SenderEmail"],
+                _config["EmailSettings:Password"]
+            );
 
-        await smtp.AuthenticateAsync(
-            _config["EmailSettings:SenderEmail"],
-            _config["EmailSettings:Password"]
-        );
-
-        await smtp.SendAsync(email);
-        await smtp.DisconnectAsync(true);
+            await smtp.SendAsync(email);
+            await smtp.DisconnectAsync(true);
+        }
+        catch (Exception ex)
+        {
+            // Consider logging to Azure Application Insights
+            Console.WriteLine("SMTP Error: " + ex.Message);
+            throw; // Or handle as needed
+        }
     }
-}
+    }
