@@ -51,6 +51,29 @@ namespace LEARNING.Server.Controllers
             }
         }
 
+        //[HttpPost("register")]
+        //public IActionResult Register(string username, string password, string name, string designation)
+        //{
+        //    try
+        //    {
+        //        var user = _usersMgr.Register(username, password, name, designation);
+
+        //        if (user == null)
+        //            return BadRequest(new { message = "User  already exist." });
+
+        //        var token = _jwtHelper.GenerateToken(user);
+
+        //        return Ok(new
+        //        {
+        //            Token = token,
+        //            User = new { user.id, user.name, user.role }
+        //        });
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, $"Registration error: {ex.Message}");
+        //    }
+        //}
         [HttpPost("register")]
         public IActionResult Register(string username, string password, string name, string designation)
         {
@@ -59,9 +82,21 @@ namespace LEARNING.Server.Controllers
                 var user = _usersMgr.Register(username, password, name, designation);
 
                 if (user == null)
-                    return BadRequest(new { message = "User  already exist." });
+                    return BadRequest(new { message = "User already exists." });
 
                 var token = _jwtHelper.GenerateToken(user);
+
+                // Prepare email template path
+                var templatePath = Path.Combine(Directory.GetCurrentDirectory(), "EmailTemplates", "Registration.html");
+
+                // Replace placeholders in the template
+                var placeholders = new Dictionary<string, string>
+        {
+            { "username", username },
+            { "link", "https://mytest-app-bfh9fegzdmb9fkfu.canadacentral-01.azurewebsites.net/login" }
+        };
+
+                _emailService.SendHtmlTemplateEmail(username, "Welcome to Our Platform!", templatePath, placeholders);
 
                 return Ok(new
                 {
@@ -74,6 +109,7 @@ namespace LEARNING.Server.Controllers
                 return StatusCode(500, $"Registration error: {ex.Message}");
             }
         }
+
 
 
 

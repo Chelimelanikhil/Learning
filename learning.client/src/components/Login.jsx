@@ -23,6 +23,7 @@ const Login = () => {
             if (response.ok) {
                 localStorage.setItem("token", data.token);
                 localStorage.setItem("isAuthenticated", "true");
+                localStorage.setItem("role",data.user.role)
                 navigate("/");
             } else {
                 setErrorMessage(data.message || "Invalid credentials");

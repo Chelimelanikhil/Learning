@@ -11,20 +11,48 @@
       "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\dao\\usersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\managers\\usersmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\managers\\usersmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\emailtemplates\\welcometemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\emailtemplates\\welcometemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\interfaces\\iusersmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\interfaces\\iusersmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\emailtemplates\\registration.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\emailtemplates\\registration.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.client\\src\\components\\employeelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\components\\employeelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\learning.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\learning.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\managers\\usersmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\managers\\usersmgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\helpers\\jwthelper .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\helpers\\jwthelper .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -45,22 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\emailtemplates\\welcometemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\emailtemplates\\welcometemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\helpers\\jwthelper .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\helpers\\jwthelper .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.client\\src\\components\\employeelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|solutionrelative:learning.client\\src\\components\\employeelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.server\\learning.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D3649B38-66FC-46FD-A0D2-56EE7DF0AA5E}|LEARNING.Server\\LEARNING.Server.csproj|solutionrelative:learning.server\\learning.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{130F9653-A715-AAE9-1770-D91CFFE6157B}|learning.client\\learning.client.esproj|c:\\users\\brio support\\desktop\\.net\\learning\\learning.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -88,7 +100,7 @@
               "RelativeDocumentMoniker": "LEARNING.Server\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Controllers\\UsersController.cs",
               "RelativeToolTip": "LEARNING.Server\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowKkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwGQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T09:59:06.109Z",
               "IsPinned": true,
@@ -102,7 +114,7 @@
               "RelativeDocumentMoniker": "LEARNING.Server\\DAO\\UsersDAO.cs",
               "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\DAO\\UsersDAO.cs",
               "RelativeToolTip": "LEARNING.Server\\DAO\\UsersDAO.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDEAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T09:58:58.148Z",
               "IsPinned": true,
@@ -110,21 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "UsersMgr.cs",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Managers\\UsersMgr.cs",
               "RelativeDocumentMoniker": "LEARNING.Server\\Managers\\UsersMgr.cs",
               "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Managers\\UsersMgr.cs",
               "RelativeToolTip": "LEARNING.Server\\Managers\\UsersMgr.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowBgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T09:59:17.848Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "WelcomeTemplate.html",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\EmailTemplates\\WelcomeTemplate.html",
               "RelativeDocumentMoniker": "LEARNING.Server\\EmailTemplates\\WelcomeTemplate.html",
@@ -133,11 +144,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-04-25T06:08:58.341Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\index.css",
               "RelativeDocumentMoniker": "learning.client\\src\\index.css",
@@ -150,21 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Models\\User.cs",
               "RelativeDocumentMoniker": "LEARNING.Server\\Models\\User.cs",
               "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Models\\User.cs",
               "RelativeToolTip": "LEARNING.Server\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T10:34:32.949Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Program.cs",
               "RelativeDocumentMoniker": "LEARNING.Server\\Program.cs",
@@ -177,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "LEARNING.Server\\Services\\EmailService.cs",
@@ -186,12 +197,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T06:13:20.687Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "LEARNING.Server\\Interfaces\\IEmailService.cs",
@@ -200,21 +210,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T06:30:32.801Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "EmployeeList.jsx",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\EmployeeList.jsx",
               "RelativeDocumentMoniker": "learning.client\\src\\components\\EmployeeList.jsx",
               "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\EmployeeList.jsx",
               "RelativeToolTip": "learning.client\\src\\components\\EmployeeList.jsx",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-04-23T10:09:10.892Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -241,6 +251,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T06:26:12.327Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registration.html",
+              "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\EmailTemplates\\Registration.html",
+              "RelativeDocumentMoniker": "LEARNING.Server\\EmailTemplates\\Registration.html",
+              "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\EmailTemplates\\Registration.html",
+              "RelativeToolTip": "LEARNING.Server\\EmailTemplates\\Registration.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-09T09:26:21.009Z",
               "EditorCaption": ""
             },
             {
@@ -286,19 +309,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\Header.jsx",
+              "RelativeDocumentMoniker": "learning.client\\src\\components\\Header.jsx",
+              "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\Header.jsx",
+              "RelativeToolTip": "learning.client\\src\\components\\Header.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-09T09:22:33.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.jsx",
+              "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\Register.jsx",
+              "RelativeDocumentMoniker": "learning.client\\src\\components\\Register.jsx",
+              "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\Register.jsx",
+              "RelativeToolTip": "learning.client\\src\\components\\Register.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-05-09T09:02:53.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Login.jsx",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\Login.jsx",
               "RelativeDocumentMoniker": "learning.client\\src\\components\\Login.jsx",
               "ToolTip": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\components\\Login.jsx",
               "RelativeToolTip": "learning.client\\src\\components\\Login.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-05-09T06:30:18.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\appsettings.Development.json",
               "RelativeDocumentMoniker": "LEARNING.Server\\appsettings.Development.json",
@@ -306,12 +355,11 @@
               "RelativeToolTip": "LEARNING.Server\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-08T13:00:47.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T13:00:47.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\appsettings.json",
               "RelativeDocumentMoniker": "LEARNING.Server\\appsettings.json",
@@ -323,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
               "Title": "LEARNING.Server.csproj",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\LEARNING.Server\\LEARNING.Server.csproj",
               "RelativeDocumentMoniker": "LEARNING.Server\\LEARNING.Server.csproj",
@@ -331,11 +379,12 @@
               "RelativeToolTip": "LEARNING.Server\\LEARNING.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-07T11:35:38.057Z"
+              "WhenOpened": "2025-05-07T11:35:38.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\brio support\\Desktop\\.Net\\Learning\\learning.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "learning.client\\src\\App.jsx",
@@ -343,8 +392,7 @@
               "RelativeToolTip": "learning.client\\src\\App.jsx",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-29T05:00:06.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T05:00:06.782Z"
             }
           ]
         }

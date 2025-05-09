@@ -9,6 +9,7 @@ const EmployeeItem = React.memo(({ id, name, designation, onEdit, onDelete }) =>
     const [isEditing, setIsEditing] = useState(false);
     const [editName, setEditName] = useState(name);
     const [editdesignation, setEditdesignation] = useState(designation);
+    const role = localStorage.getItem('role');
 
     const handleSave = () => {
         onEdit(id, editName, editdesignation);
@@ -41,10 +42,10 @@ const EmployeeItem = React.memo(({ id, name, designation, onEdit, onDelete }) =>
                 <>
                     <Link to={`/employee/${id}`} className="employee-name">{name}</Link>
                     <p className="employee-role">{designation}</p>
-                    <div className="button-row">
-                        <button onClick={() => setIsEditing(true)} className="edit-button">Edit</button>
-                        <button onClick={() => onDelete(id)} className="delete-button">Delete</button>
-                    </div>
+                        {role=='admin' && <div className="button-row">
+                            <button onClick={() => setIsEditing(true)} className="edit-button">Edit</button>
+                            <button onClick={() => onDelete(id)} className="delete-button">Delete</button>
+                        </div> }
                 </>
             )}
         </li>
