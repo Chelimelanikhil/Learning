@@ -52,11 +52,11 @@ namespace LEARNING.Server.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(string username, string password, string name, string role)
+        public IActionResult Register(string username, string password, string name, string designation)
         {
             try
             {
-                var user = _usersMgr.Register(username, password, name, role);
+                var user = _usersMgr.Register(username, password, name, designation);
 
                 if (user == null)
                     return BadRequest(new { message = "User  already exist." });

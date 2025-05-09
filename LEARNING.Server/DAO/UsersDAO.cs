@@ -20,7 +20,7 @@ namespace LEARNING.Server.DAO
             string query = "SELECT * FROM Users WHERE username = @username AND password = @password";
             return connection.QueryFirstOrDefault<User>(query, new { username, password });
         }
-        public User Register(string username, string password, string name, string role)
+        public User Register(string username, string password, string name, string designation)
         {
             using var connection = new SqlConnection(ConnectionString.DefaultConnection);
 
@@ -35,13 +35,13 @@ namespace LEARNING.Server.DAO
 
             // Insert the new user
             string insertQuery = @"
-        INSERT INTO Users (Username, Password, Name, Role)
-        VALUES (@username, @password, @name, @role);
+        INSERT INTO Users (Username, Password, Name, designation)
+        VALUES (@username, @password, @name, @designation);
 
         SELECT * FROM Users WHERE Username = @username;
     ";
 
-            return connection.QueryFirstOrDefault<User>(insertQuery, new { username, password, name, role });
+            return connection.QueryFirstOrDefault<User>(insertQuery, new { username, password, name, designation });
         }
 
         public List<User> GetUsers()
