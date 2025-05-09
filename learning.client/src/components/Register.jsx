@@ -6,7 +6,7 @@ const Register = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
-    const [role, setRole] = useState("");
+    const [designation, setdesignation] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
     const navigate = useNavigate();
     const { theme } = useContext(ThemeContext);
@@ -15,7 +15,7 @@ const Register = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch(`Users/register?username=${username}&password=${password}&name=${name}&role=${role}`, {
+            const response = await fetch(`Users/register?username=${username}&password=${password}&name=${name}&designation=${designation}`, {
                 method: "POST",
             });
 
@@ -65,10 +65,10 @@ const Register = () => {
                     />
                     <input
                         type="text"
-                        placeholder="Role"
+                        placeholder="designation"
                         className="w-full p-2 mb-4 border rounded"
-                        value={role}
-                        onChange={(e) => setRole(e.target.value)}
+                        value={designation}
+                        onChange={(e) => setdesignation(e.target.value)}
                         required
                     />
                     <button type="submit" className="w-full bg-green-500 text-white p-2 rounded">
