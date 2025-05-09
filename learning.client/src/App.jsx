@@ -20,7 +20,7 @@ function App() {
             <EmployeeProvider>
                 <Router>
                     <div className="container mx-auto p-4">
-                        <Header title="Employee Management Dashboard" />
+                        <Header title="Employee Management" />
                         <Routes>
                             <Route path="/login" element={<Login />} />
                             <Route path="/register" element={<Register />} />
