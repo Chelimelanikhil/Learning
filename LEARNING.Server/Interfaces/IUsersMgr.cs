@@ -7,6 +7,9 @@ namespace LEARNING.Server.Interfaces
 
         User Login(string username, string password);
 
+        User Register(string username, string password, string name, string role);
+
+
         List<User> GetUsers();
 
         void AddUser(User user);

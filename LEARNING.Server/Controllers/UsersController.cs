@@ -51,6 +51,32 @@ namespace LEARNING.Server.Controllers
             }
         }
 
+        [HttpPost("register")]
+        public IActionResult Register(string username, string password, string name, string role)
+        {
+            try
+            {
+                var user = _usersMgr.Register(username, password, name, role);
+
+                if (user == null)
+                    return BadRequest(new { message = "User  already exist." });
+
+                var token = _jwtHelper.GenerateToken(user);
+
+                return Ok(new
+                {
+                    Token = token,
+                    User = new { user.id, user.name, user.role }
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Registration error: {ex.Message}");
+            }
+        }
+
+
+
         [HttpGet("getUsers")]
         [Authorize]
         public IActionResult GetUsers()

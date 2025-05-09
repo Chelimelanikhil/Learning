@@ -7,6 +7,7 @@ import About from "./components/About";
 import Login from "./components/Login";
 import { EmployeeProvider } from "./context/EmployeeContext";
 import { ThemeProvider } from "./context/ThemeContext";
+import Register from "./components/Register";
 
 const PrivateRoute = ({ children }) => {
     const token = localStorage.getItem("token");
@@ -22,10 +23,11 @@ function App() {
                         <Header title="Employee Management Dashboard" />
                         <Routes>
                             <Route path="/login" element={<Login />} />
+                            <Route path="/register" element={<Register />} />
                             <Route
                                 path="/"
                                 element={
-                                    <PrivateRoute>
+                                    <PrivateRoute>  
                                         <EmployeeList />
                                     </PrivateRoute>
                                 }

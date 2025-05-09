@@ -1,5 +1,5 @@
 import React, { useState ,useContext} from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 import { ThemeContext } from "../context/ThemeContext";
 
 
@@ -56,8 +56,15 @@ const Login = () => {
                 <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">
                     Login
                 </button>
-            </form>
+                </form>
+                <p className="mt-4 text-center">
+                    Don't' have an account?{" "}
+                    <Link to="/register" className="text-blue-500 hover:underline">
+                        Register    
+                    </Link>
+                </p>
             </div>
+         
         </div>
     );
 };

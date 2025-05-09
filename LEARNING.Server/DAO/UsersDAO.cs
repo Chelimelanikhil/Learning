@@ -20,6 +20,29 @@ namespace LEARNING.Server.DAO
             string query = "SELECT * FROM Users WHERE username = @username AND password = @password";
             return connection.QueryFirstOrDefault<User>(query, new { username, password });
         }
+        public User Register(string username, string password, string name, string role)
+        {
+            using var connection = new SqlConnection(ConnectionString.DefaultConnection);
+
+            // Check if the username already exists
+            string checkQuery = "SELECT COUNT(1) FROM Users WHERE username = @username";
+            int count = connection.ExecuteScalar<int>(checkQuery, new { username });
+
+            if (count > 0)
+            {
+                return null; // Username already exists
+            }
+
+            // Insert the new user
+            string insertQuery = @"
+        INSERT INTO Users (Username, Password, Name, Role)
+        VALUES (@username, @password, @name, @role);
+
+        SELECT * FROM Users WHERE Username = @username;
+    ";
+
+            return connection.QueryFirstOrDefault<User>(insertQuery, new { username, password, name, role });
+        }
 
         public List<User> GetUsers()
         {

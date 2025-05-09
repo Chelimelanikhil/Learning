@@ -71,6 +71,10 @@ export default defineConfig({
                 target: 'https://localhost:7008/',
                 secure: false,
             },
+            '^/Users/register': {
+                target: 'https://localhost:7008/',
+                secure: false,
+            },
         },
         port: parseInt(env.DEV_SERVER_PORT || '55393'),
         https: {
